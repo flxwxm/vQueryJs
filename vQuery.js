@@ -62,7 +62,6 @@ function Base(args){
 Base.prototype.ready=function(fn){
 	whenReady(fn);
 };
-
 //获取元素
 Base.prototype.find=function(args){
 	var temporary=[];
